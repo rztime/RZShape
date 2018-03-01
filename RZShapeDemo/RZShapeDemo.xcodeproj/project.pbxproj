@@ -13,6 +13,10 @@
 		B22465102047F63500EDE2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B224650F2047F63500EDE2DF /* Assets.xcassets */; };
 		B22465132047F63500EDE2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22465112047F63500EDE2DF /* LaunchScreen.storyboard */; };
 		B22465162047F63500EDE2DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B22465152047F63500EDE2DF /* main.m */; };
+		B224651F2047F76A00EDE2DF /* RZShape.m in Sources */ = {isa = PBXBuildFile; fileRef = B224651E2047F76A00EDE2DF /* RZShape.m */; };
+		B22465252048086300EDE2DF /* UIView+RZShape.m in Sources */ = {isa = PBXBuildFile; fileRef = B22465242048086300EDE2DF /* UIView+RZShape.m */; };
+		B224652820481ECC00EDE2DF /* RZShapeLineAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B224652720481ECC00EDE2DF /* RZShapeLineAttribute.m */; };
+		B224652B2048203B00EDE2DF /* CAShapeLayer+RZShape.m in Sources */ = {isa = PBXBuildFile; fileRef = B224652A2048203B00EDE2DF /* CAShapeLayer+RZShape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		B22465122047F63500EDE2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B22465142047F63500EDE2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22465152047F63500EDE2DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B224651D2047F76A00EDE2DF /* RZShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZShape.h; sourceTree = "<group>"; };
+		B224651E2047F76A00EDE2DF /* RZShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZShape.m; sourceTree = "<group>"; };
+		B22465232048086300EDE2DF /* UIView+RZShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RZShape.h"; sourceTree = "<group>"; };
+		B22465242048086300EDE2DF /* UIView+RZShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RZShape.m"; sourceTree = "<group>"; };
+		B224652620481ECC00EDE2DF /* RZShapeLineAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZShapeLineAttribute.h; sourceTree = "<group>"; };
+		B224652720481ECC00EDE2DF /* RZShapeLineAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZShapeLineAttribute.m; sourceTree = "<group>"; };
+		B22465292048203B00EDE2DF /* CAShapeLayer+RZShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+RZShape.h"; sourceTree = "<group>"; };
+		B224652A2048203B00EDE2DF /* CAShapeLayer+RZShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+RZShape.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,14 @@
 		B224651C2047F64300EDE2DF /* RZShape */ = {
 			isa = PBXGroup;
 			children = (
+				B224651D2047F76A00EDE2DF /* RZShape.h */,
+				B224651E2047F76A00EDE2DF /* RZShape.m */,
+				B224652620481ECC00EDE2DF /* RZShapeLineAttribute.h */,
+				B224652720481ECC00EDE2DF /* RZShapeLineAttribute.m */,
+				B22465232048086300EDE2DF /* UIView+RZShape.h */,
+				B22465242048086300EDE2DF /* UIView+RZShape.m */,
+				B22465292048203B00EDE2DF /* CAShapeLayer+RZShape.h */,
+				B224652A2048203B00EDE2DF /* CAShapeLayer+RZShape.m */,
 			);
 			path = RZShape;
 			sourceTree = "<group>";
@@ -150,7 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22465252048086300EDE2DF /* UIView+RZShape.m in Sources */,
 				B224650B2047F63500EDE2DF /* ViewController.m in Sources */,
+				B224651F2047F76A00EDE2DF /* RZShape.m in Sources */,
+				B224652B2048203B00EDE2DF /* CAShapeLayer+RZShape.m in Sources */,
+				B224652820481ECC00EDE2DF /* RZShapeLineAttribute.m in Sources */,
 				B22465162047F63500EDE2DF /* main.m in Sources */,
 				B22465082047F63500EDE2DF /* AppDelegate.m in Sources */,
 			);
